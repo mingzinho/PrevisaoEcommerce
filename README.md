@@ -2,7 +2,7 @@
 
 > Ter o Build Tools e o Cx_Oracle baixados no seu computador, para poder realizar a conexão com o banco de dados.
 
-> Ter o Long Path habilitado no Windows, para poder baixar os requirements.
+> Ter o Long Path(poder exceder o número máximo de caracteres em um comando) habilitado no Windows, para poder baixar os requirements.
 
 Baixar e instalar o: [Build Tools](https://visualstudio.microsoft.com/pt-br/visual-cpp-build-tools/)
 
@@ -10,7 +10,7 @@ Baixe a versão mais recente do basic package do: [cx_Oracle](https://www.oracle
 
 
 
-Utilize o seguinte comando no PowerShell como Administrador:
+Utilize o seguinte comando no PowerShell como Administrador para permitir que o Windows utilize o Long Path:
 
 ```
 "New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
